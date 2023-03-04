@@ -204,3 +204,16 @@ button:disabled:hover {
   border-color: #444;
   transition: all 0.2s ease-in-out;
 }
+
+.card {
+  background-color: #222;
+  border: 1px solid #333;
+  border-radius: 0.5em;
+  padding: 2em;
+  margin: 0.5em;
+  display: inline-block;
+}
+
+.card * {
+  margin: 0.5em;
+}
